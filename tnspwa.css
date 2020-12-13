@@ -13,7 +13,7 @@
 }
 
 
-
+ 
 
 
 .topnav {
@@ -73,6 +73,13 @@ outline: none;
 color: #047433;
 }
 
+#footer a.btnhover:hover {
+
+
+outline: none;
+color: #047433;
+}
+
 @media screen and (min-width: 601px) {
   div.textBottom {
     color: #047433;
@@ -102,7 +109,7 @@ color: #047433;
 
 }
 
-/*--section2---*/
+/*--section3---*/
 #section3 {
   
   padding-left: 30px;
@@ -142,4 +149,17 @@ color: #047433;
 }
 .fontWidth {
   width: 100%;
+  }
+
+
+  /*----contactuspage---*/
+  #contactus1 .btnhover1:hover {
+    color: #047433;
+  }
+
+
+  /*-----membership---*/
+  #cardsmember .cardbtn:hover {
+    background-color: #047433;
+    border-color: white !important;
   }
