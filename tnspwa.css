@@ -12,7 +12,13 @@
 
 }
 
+#section1 .images123 {
+  background-image: url('images/safety1.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center; 
 
+}
  
 
 
@@ -86,6 +92,8 @@ color: #047433;
 
   }
 }
+
+
 
 @media screen and (max-width: 600px) {
   div.textBottom {
