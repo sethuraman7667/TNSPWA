@@ -22,7 +22,10 @@
 }----*/
 
 
-
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 0.1rem !important ;
+  padding-right: 0.1rem !important;
+}
 .topnav {
   overflow: hidden;
   background-color: #fff;
@@ -30,7 +33,7 @@
 
 .topnav a {
   float: left;
-  display: block;
+  display: inline-block;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -44,25 +47,34 @@
   border-bottom-color: #047433;
 }
 
-.topnav a.active {
+.topnav a:active {
   border-bottom: 3px solid ;
   border-bottom-color: #047433;
 }
 
+.topnav a:focus {
+color: #047433;
+}
 .h1-responsive {
   color: #047433;
 }
 
 
+#section1 .btnhover {
+
+background-color: #047433 !important;
+border-color: #047433 !important;
+}
+
 #section1 .btnhover:hover {
 
-background-color: #047433;
-outline: none;
+background-color: #047433 !important;
+border-color: #047433 !important;
 }
 
 #section2 .btnhover:hover {
 
-background-color: #047433;
+background-color: indigo !important;
 outline: none;
 }
 
@@ -87,7 +99,7 @@ outline: none;
 color: #047433;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 600px) {
   div.textBottom {
     color: #047433;
 
@@ -168,7 +180,7 @@ color: #047433;
   float:left;
   margin:0 5px 0 0;
   cursor:pointer;
-  background:#007BFF ;
+  background:#047433;
   color:white;
   transition: 0.5s;
   -moz-transition: 0.5s;
@@ -176,7 +188,7 @@ color: #047433;
   -o-transition: 0.5s;  
 }
 .icon.social:hover {
-  background:#047433 ;
+  background:#007BFF ;
   color: white;
   transition: 0.5s;
   -moz-transition: 0.5s;
@@ -232,11 +244,14 @@ color: #047433;
 
   /*-----membership---*/
   #cardsmember .cardbtn:hover {
-    background-color: #047433;
-    border-color: white !important;
+    background-color: #007BFF;
+    border-color: #007BFF !important;
   }
 
-
+#cardsmember .cardbtn {
+    background-color: #047433;
+    border-color: #047433 !important;
+  }
 
 /*---------mobile responsive-----------*/
 @media screen and (max-width: 992px) {
@@ -332,4 +347,18 @@ color: #047433;
 .navbar-toggler:focus{
   color: #047433 !important ;
 }
+}
+
+/*----hide aboutus------*/
+
+#aboutmain1{
+  display: none;
+}
+@media screen and (max-width: 600px) {
+    #aboutmain {
+      display: none;
+  }
+  #aboutmain1 {
+    display: block;
+  }
 }
