@@ -20,14 +20,7 @@
   background-position: center center; 
 }
 }----*/
-@media only screen and (max-width: 600px) {
-  #section1{
-    background-image: url("images/safety21.jpg") !important ;
-    background-repeat: no-repeat !important; 
-    background-size: cover !important; 
-    background-position: center center!important; 
-  }
-} 
+
 
 
 .topnav {
@@ -246,6 +239,9 @@ color: #047433;
 
 /*---------mobile responsive-----------*/
 @media screen and (max-width: 992px) {
+  #footer {
+    background-color: #EDEFEC;
+  }
   .demopadding {
   margin:50px auto;
   width:140px;
@@ -307,4 +303,23 @@ color: #047433;
   left:11px;
 }
 
+}
+
+
+/*-----section1-----*/
+@media screen and (max-width: 700px) {
+  #section1 {
+    background-image: url("images/safety21.jpg") !important ;
+    background-repeat: no-repeat !important; 
+    background-size: cover !important; 
+    background-position: center center!important; 
+  }
+
+  .mobileresponsive {
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 225px;
+    color: white;
+    text-align: center;
+  }
 }
