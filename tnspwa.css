@@ -220,6 +220,7 @@ color: #047433;
 }
 .fontWidth {
   width: 100%;
+  background-color: #EDEFEC;
   }
 
 
@@ -322,4 +323,13 @@ color: #047433;
     color: white;
     text-align: center;
   }
+  a.nav-link{
+  color: #047433 !important;
+}
+.navbar-toggler{
+  border-color: #047433 !important ;
+}
+.navbar-toggler:focus{
+  color: #047433 !important ;
+}
 }
