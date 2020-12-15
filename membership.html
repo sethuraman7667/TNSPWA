@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>TN-SPWA</title>
+  <title>TNSPWA</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!----customized css-->
   <link rel="stylesheet" type="text/css" href="tnspwa.css">
+  <link rel="stylesheet" type="text/css" href="mobile.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
   <!---fontfamily--->
@@ -18,18 +19,18 @@
 </head> 
 <body>
 
-<!---corinsoft--->  
+<!---corinsoft--->
 <!---Navbar start-->
 <nav class="navbar navbar-expand-lg sticky-top  navbar-light bg-white">
   <div class="container-fluid topnavbar">
     <a class="navbar-brand" href="index.html">
-      <img src="images/logo/bg1.png" alt="logo" style="width:200px;">
+      <img src="images/logo/bg1.svg" alt="logo" style="width:225px;">
     </a>
  
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end topnav" id="navbarTogglerDemo02" style="padding-left: 20px" >
+    <div class="collapse navbar-collapse  topnav" id="navbarTogglerDemo02" style="padding-left: 20px" >
       <ul class="navbar-nav   mb-2 mb-lg-0">
         <li class="nav-item">
           <a  class="nav-link"  href="index.html">Home</a>
@@ -38,7 +39,16 @@
           <a  class="nav-link"  href="about.html">About Us</a>
         </li>
         <li class="nav-item">
-          <a  class="nav-link " href="membership.html" >Membership</a>
+          <a  class="nav-link " href="membership.html" >Registered Membership</a>
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link " href="contact.html" >Download</a>
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link " href="contact.html" >Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link " href="contact.html" >E-Learning</a>
         </li>
         <li class="nav-item">
           <a  class="nav-link " href="contact.html" >Contact Us</a>
@@ -52,15 +62,123 @@
 </nav>
 <!---corinsoft--->	
 <!---Navbar end-->
-
-
-<!---sectiononeStart-->  
 <main class="container">
-  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h3  style="color: #047433; text-decoration: overline ;" >Eligibility to Join the Association</h3>
-    <p class="lead w-100 ">Every Professional who has been conferred a certificate in safety course recognised Nationally / Internationally shall be eligible to enroll as Member.</p>
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-start">
+    <h3  style="color: #047433;" >Eligibility to Join the Association</h3>
+    <p class="lead w-100 ">Every Professionals who has been conferred a certificate in safety course recognised Nationally / Internationally shall be eligible to enroll as a Member.</p>
   </div>
+<!----RegisteredMembers------>
+  <div id="gallery"  class="container" >
+    <div class="row" >
+      <div class="pt-1 pb-3 ps-3 "  style="color: #047433;" >
+      <h3>Registered Members</h3>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 pt-3 mb-3 ps-3"  >
+    <div class="col ps-2 " style="width: 22rem; ">
+      <div class=" bg-transparent mb-4 " > 
+        <div class="content">
+          <a href="#" target="_blank">
+            <div class="content-overlay"></div>
+            <img class=" img-fluid content-image" src="images/register/president signing.jpeg" >
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">President Signing MOA of our Association</h3>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col " style="width: 22rem;  ">
+      <div class=" mb-4 " > 
+        <div class="content">
+          <a href="#" target="_blank">
+            <div class="content-overlay"></div>
+            <img class=" img-fluid content-image" height="200px" src="images/register/secretary.jpeg"  >
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Secretary of the association signing the MOA</h3>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col " style="width: 22rem; ">
+      <div class=" mb-4 " > 
+        <div class="content">
+          <a href="#" target="_blank">
+            <div class="content-overlay"></div>
+            <img class=" img-fluid content-image" src="images/register/joint_secretary.jpeg" >
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Joint Secretary of the association signing the MOA</h3>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col " style="width: 22rem; ">
+      <div class=" mb-4 " > 
+        <div class="content">
+          <a href="#" target="_blank">
+            <div class="content-overlay"></div>
+            <img class=" img-fluid content-image" src="images/register/ec member.jpeg" >
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">EC Member signing the MOA</h3>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col ps-3 " style="width: 22rem; ">
+      <div class=" mb-4 " > 
+        <div class="content">
+          <a href="#" target="_blank">
+            <div class="content-overlay"></div>
+            <img class=" img-fluid content-image" src="images/register/while handling.jpeg" >
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">While handling Over of Signed by Law Documents</h3>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+       <div class="col ps-3 " style="width: 22rem; ">
+      <div class=" mb-4 " > 
+        <div class="content">
+          <a href="#" target="_blank">
+            <div class="content-overlay"></div>
+            <img class=" img-fluid content-image" src="images/register/pooja.jpeg" >
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Association Office Pooja During Innaugration</h3>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col ps-3 justify-content-center " style="width: 22rem; ">
+      <div class=" mb-4 " > 
+        <div class="content">
+          <a href="#" target="_blank">
+            <div class="content-overlay"></div>
+            <img class=" img-fluid content-image" src="images/register/innaugration.jpeg" >
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Innaugration of the Association Office</h3>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
 
+        
+        
+      
+      </div>
+   </div>
+     
+   </div>
+<!---RegisteredMembersEnd--->
+<!---sectiononeStart-->  
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-start">
+    <h3  style="color: #047433;" >Membership Scheme</h3>
+  </div>
 <!----Cards started---->
 <div id="cardsmember" class="container" style="background-color: #047433;">
   <div class="row row-cols-1 row-cols-md-3 pt-5 mb-3 text-center justify-content-center"  >
@@ -70,7 +188,7 @@
         <h4 class="card-title pricing-card-title mt-3">Students</h4>
       </div>
       <div class="card-body">
-        <h3 class="my-0 fw-normal">Rs.500</h3>
+        <h3 class="my-0 fw-normal"><i class="fas fa-rupee-sign"></i> 500</h3>
         <ul class="list-unstyled mt-3 mb-4">
           <li>OneTime Payments</li>
           <li>Lifetime membership</li>
@@ -85,7 +203,7 @@
         <h4 class="card-title pricing-card-title mt-3">Professionals</h4>
       </div>
       <div class="card-body">
-        <h3 class="my-0 fw-normal">Rs.5000</h3>
+        <h3 class="my-0 fw-normal"><i class="fas fa-rupee-sign"></i> 5000</h3>
         <ul class="list-unstyled mt-3 mb-4">
           <li>OneTime Payments</li>
           <li>Lifetime membership</li>
@@ -100,7 +218,7 @@
         <h4 class="card-title pricing-card-title mt-3">Corporates</h4>
       </div>
       <div class="card-body">
-        <h3 class="my-0 fw-normal">Rs.25000</h3>
+        <h3 class="my-0 fw-normal"><i class="fas fa-rupee-sign"></i> 25000</h3>
         <ul class="list-unstyled mt-3 mb-4">
           <li>OneTime Payments</li>
           <li>Lifetime membership</li>
@@ -129,7 +247,7 @@
     
 <hr>
           <div class=" d-flex justify-content-center" >
-                 <p ><i class="far fa-copyright"></i>  2020 Alrights Reserved.Developed by <a class="underline" href="https://corinsoft.com" data-bs-toggle="tooltip" title="Corinsoft - Next Gen Digital Software Service Company.">Corinsoft</a></p>
+                 <p ><i class="far fa-copyright"></i>  2020 All Rights Reserved. Developed by <a class="underline" href="https://corinsoft.com" data-bs-toggle="tooltip" title="Corinsoft - Next Gen Digital Software Service Company.">Corinsoft</a></p>
                  <div class="tooltip bs-tooltip-top" role="tooltip">
                   <div class="tooltip-arrow"></div>
                   <div class="tooltip-inner">

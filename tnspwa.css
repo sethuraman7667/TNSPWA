@@ -292,7 +292,18 @@ color: #047433;
     border-color: #047433 !important;
     color: white;
   }
+/*--legalAmends---*/
+    #legalAmend .cardbtn:hover {
+    background-color: #72BF44;
+    border-color: #72BF44 !important;
+    color: white;
+  }
 
+#legalAmend .cardbtn {
+    background-color: #047433;
+    border-color: #047433 !important;
+    color: white;
+  }
   /*------homeGallery-----*/
   @import url(https://fonts.googleapis.com/css?family=Raleway);
 
