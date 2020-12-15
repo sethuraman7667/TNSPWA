@@ -2,7 +2,7 @@
 
 
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
 .navbar li {
     margin-left : 0.75em;
     margin-right : 0.75em;
@@ -55,10 +55,11 @@
 .topnav a:focus {
 color: #047433;
 }
+
 .h1-responsive {
   color: #047433;
 }
-
+}
 
 #section1 .btnhover {
 
@@ -188,7 +189,7 @@ color: #047433;
   -o-transition: 0.5s;  
 }
 .icon.social:hover {
-  background:#007BFF ;
+  background:#39B54A ;
   color: white;
   transition: 0.5s;
   -moz-transition: 0.5s;
@@ -222,7 +223,31 @@ color: #047433;
   align-items: center;
 }
 
+/*------contactuspage-----*/
+.contactuscards {
+  background-color: #047433 !important ;
+  color: white !important;
+  font-weight: 600;
+}
+.contactuscards:hover {
+  background-color: #0D328D !important;
+}
 
+.colorFocus {
+  width: 75% !important ;
+
+}
+
+@media screen and (max-width: 600px) {
+  .contactuscards {
+  background-color: #047433 !important ;
+  color: white !important;
+  font-weight: 600;
+}
+.contactuscards:hover {
+  background-color: #0D328D !important;
+}
+}
 
 #aboutmain .about1{
   font-family: Open-sans-serif;
@@ -244,14 +269,161 @@ color: #047433;
 
   /*-----membership---*/
   #cardsmember .cardbtn:hover {
-    background-color: #007BFF;
-    border-color: #007BFF !important;
+    background-color: #72BF44;
+    border-color: #72BF44 !important;
+    color: white;
   }
 
 #cardsmember .cardbtn {
     background-color: #047433;
     border-color: #047433 !important;
+    color: white;
   }
+
+  /*----homeaboutus------*/
+    #about123 .cardbtn:hover {
+    background-color: #72BF44;
+    border-color: #72BF44 !important;
+    color: white;
+  }
+
+#about123 .cardbtn {
+    background-color: #047433;
+    border-color: #047433 !important;
+    color: white;
+  }
+
+  /*------homeGallery-----*/
+  @import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f9f9f9;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-title{
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+.container{
+  padding: 1em 0;
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .container{
+    width: 33.33333%;
+  }
+}
+
+.container .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: #047433;
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 0.8;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
+  /*------homegalleryEnd---*/
 
 /*---------mobile responsive-----------*/
 @media screen and (max-width: 992px) {
@@ -288,7 +460,7 @@ color: #047433;
   float:left;
   margin:0 5px 0 0;
   cursor:pointer;
-  background:#007BFF ;
+  background:#047433 ;
   color:white;
   transition: 0.5s;
   -moz-transition: 0.5s;
@@ -296,7 +468,7 @@ color: #047433;
   -o-transition: 0.5s;  
 }
 .icon.social:hover {
-  background:#047433 ;
+  background:#39B54A ;
   color: white;
   transition: 0.5s;
   -moz-transition: 0.5s;
@@ -323,31 +495,6 @@ color: #047433;
 
 
 /*-----section1-----*/
-@media screen and (max-width: 700px) {
-  #section1 {
-    background-image: url("images/safety21.jpg") !important ;
-    background-repeat: no-repeat !important; 
-    background-size: cover !important; 
-    background-position: center center!important; 
-  }
-
-  .mobileresponsive {
-    font-weight: 600;
-    font-size: 25px;
-    padding-top: 225px;
-    color: white;
-    text-align: center;
-  }
-  a.nav-link{
-  color: #047433 !important;
-}
-.navbar-toggler{
-  border-color: #047433 !important ;
-}
-.navbar-toggler:focus{
-  color: #047433 !important ;
-}
-}
 
 /*----hide aboutus------*/
 
