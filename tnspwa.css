@@ -63,7 +63,6 @@ color: #047433 !important;
 
 #section1 .btnhover {
 
-background-color: #047433 !important;
 border-color: #047433 !important;
 }
 
@@ -225,12 +224,25 @@ color: #047433;
 
 /*------contactuspage-----*/
 .contactuscards {
-  background-color: #047433 !important ;
-  color: white !important;
+  border-color: #047433 !important ;
+  color: black ;
   font-weight: 600;
 }
 .contactuscards:hover {
-  background-color: #72BF44 !important;
+  background-color: #047433 !important;
+  color: white !important;
+}
+#contactus1  .conttext {
+  color: black ;
+  text-decoration: none !important;
+}
+#contactus1  .conttext:hover {
+  color: white ;
+  text-decoration: none !important;
+}
+#contactus1  .conttext1:hover {
+  color: white !important ;
+  text-decoration: none !important;
 }
 
 .colorFocus {
@@ -269,28 +281,28 @@ color: #047433;
 
   /*-----membership---*/
   #cardsmember .cardbtn:hover {
-    background-color: #72BF44;
-    border-color: #72BF44 !important;
+    background-color: #047433;
+    border-color: #047433 !important;
     color: white;
   }
 
 #cardsmember .cardbtn {
-    background-color: #047433;
+    
     border-color: #047433 !important;
-    color: white;
+    color: black;
   }
 
   /*----homeaboutus------*/
     #about123 .cardbtn:hover {
-    background-color: #72BF44;
-    border-color: #72BF44 !important;
+    background-color: #047433;
+    border-color: #047433 !important;
     color: white;
   }
 
 #about123 .cardbtn {
-    background-color: #047433;
+    
     border-color: #047433 !important;
-    color: white;
+    color: black;
   }
 /*--legalAmends---*/
     #legalAmenddownload .cardbtn:hover {
