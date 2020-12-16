@@ -45,14 +45,15 @@
 .topnav a:hover {
   border-bottom: 3px solid;
   border-bottom-color: #047433;
+  color: #047433 !important;
 }
 
-.topnav a:active {
+.nav-link:active {
   color: #047433 !important;
 
 }
 
-.topnav a:focus {
+.nav-link:focus {
 color: #047433 !important;
 }
 
