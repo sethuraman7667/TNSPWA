@@ -293,13 +293,13 @@ color: #047433;
     color: white;
   }
 /*--legalAmends---*/
-    #legalAmend .cardbtn:hover {
+    #legalAmenddownload .cardbtn:hover {
     background-color: #72BF44;
     border-color: #72BF44 !important;
     color: white;
   }
 
-#legalAmend .cardbtn {
+#legalAmenddownload .cardbtn {
     background-color: #047433;
     border-color: #047433 !important;
     color: white;
