@@ -48,12 +48,12 @@
 }
 
 .topnav a:active {
-  border-bottom: 3px solid ;
-  border-bottom-color: #047433;
+  color: #047433 !important;
+
 }
 
 .topnav a:focus {
-color: #047433;
+color: #047433 !important;
 }
 
 .h1-responsive {
@@ -230,7 +230,7 @@ color: #047433;
   font-weight: 600;
 }
 .contactuscards:hover {
-  background-color: #0D328D !important;
+  background-color: #72BF44 !important;
 }
 
 .colorFocus {
