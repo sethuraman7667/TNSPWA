@@ -270,7 +270,9 @@ color: #047433;
   box-shadow: 0 0 0 0.25rem rgba(4,116,51,.25) !important;
 }
 
-
+.form-control {
+  border:1px solid #047433 !important;
+}
 
 
 
@@ -352,6 +354,7 @@ color: #047433;
     background-color: #047433 !important;
     border-color: #047433 !important;
     color: white !important ;
+    box-shadow: none;
   }
   #legalAmenddownload .cardbtn:focus-within {
     background-color: #047433 !important;
