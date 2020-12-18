@@ -22,6 +22,7 @@
 }----*/
 
 
+
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-left: 0.1rem !important ;
   padding-right: 0.1rem !important;
@@ -153,7 +154,7 @@ color: #047433;
 
 .demopadding {
   margin:50px auto;
-  width:140px;
+  width:180px;
   text-align:center;
 }
 .icon {
@@ -181,15 +182,15 @@ color: #047433;
   float:left;
   margin:0 5px 0 0;
   cursor:pointer;
-  background:#047433;
-  color:white;
+  border: 1px solid #047433 !important ;
+  color:#047433;
   transition: 0.5s;
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;  
 }
 .icon.social:hover {
-  background:#39B54A ;
+  background:#047433 ;
   color: white;
   transition: 0.5s;
   -moz-transition: 0.5s;
@@ -226,25 +227,24 @@ color: #047433;
 /*------contactuspage-----*/
 .contactuscards {
   border-color: #047433 !important ;
-  color: black ;
+  color: #047433 ;
   font-weight: 600;
+
 }
 .contactuscards:hover {
   background-color: #047433 !important;
   color: white !important;
 }
 #contactus1  .conttext {
-  color: black ;
+  color: #047433 ;
   text-decoration: none !important;
 }
 #contactus1  .conttext:hover {
-  color: white ;
+  color: white !important;
+  background-color: #047433 !important;
   text-decoration: none !important;
 }
-#contactus1  .conttext1:hover {
-  color: white !important ;
-  text-decoration: none !important;
-}
+
 
 .colorFocus {
   width: 75% !important ;
@@ -253,12 +253,13 @@ color: #047433;
 
 @media screen and (max-width: 600px) {
   .contactuscards {
-  background-color: #047433 !important ;
-  color: white !important;
+  
+  color: #047433 !important;
   font-weight: 600;
 }
 .contactuscards:hover {
-  background-color: #0D328D !important;
+  background-color: #047433 !important;
+  color: white;
 }
 }
 
@@ -286,11 +287,14 @@ color: #047433;
     border-color: #047433 !important;
     color: white;
   }
-
+#cardsmember .cardbtn:focus {
+    box-shadow: none !important;
+  }
 #cardsmember .cardbtn {
     
     border-color: #047433 !important;
-    color: black;
+    color: #047433;
+
   }
 
   /*----homeaboutus------*/
@@ -300,22 +304,42 @@ color: #047433;
     color: white;
   }
 
+  #about123 .cardbtn:focus {
+    box-shadow: none !important;
+  }
+
 #about123 .cardbtn {
     
     border-color: #047433 !important;
-    color: black;
+    color: #047433;
   }
 /*--legalAmends---*/
     #legalAmenddownload .cardbtn:hover {
-    background-color: #72BF44;
-    border-color: #72BF44 !important;
-    color: white;
+    background-color: #047433 !important;
+    border-color: #047433 !important;
+    color: white !important ;
   }
 
-#legalAmenddownload .cardbtn {
-    background-color: #047433;
+ #legalAmenddownload .cardbtn:active {
+    background-color: #047433 !important;
     border-color: #047433 !important;
-    color: white;
+    color: white !important ;
+  }
+   #legalAmenddownload .cardbtn:focus {
+    background-color: #047433 !important;
+    border-color: #047433 !important;
+    color: white !important ;
+  }
+  #legalAmenddownload .cardbtn:focus-within {
+    background-color: #047433 !important;
+    border-color: #047433 !important;
+    color: white !important ;
+  }
+  
+#legalAmenddownload .cardbtn {
+    background-color:white !important ;
+    border-color: #047433 !important;
+    color: #047433 !important ;
   }
   /*------homeGallery-----*/
   @import url(https://fonts.googleapis.com/css?family=Raleway);
@@ -456,7 +480,7 @@ body{
   }
   .demopadding {
   margin:50px auto;
-  width:140px;
+  width:160px;
   text-align:center;
 }
 .icon {
@@ -484,15 +508,15 @@ body{
   float:left;
   margin:0 5px 0 0;
   cursor:pointer;
-  background:#047433 ;
-  color:white;
+  border: 1px solid #047433 !important ;
+  color:#047433;
   transition: 0.5s;
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;  
 }
 .icon.social:hover {
-  background:#39B54A ;
+  background:#047433 ;
   color: white;
   transition: 0.5s;
   -moz-transition: 0.5s;
@@ -532,4 +556,41 @@ body{
   #aboutmain1 {
     display: block;
   }
+}
+
+
+
+/*-----textTransform----*/
+@media screen and (min-width: 728px) {
+#mobileId {
+  display: none;
+
+  }
+
+ .dimension1 { 
+  overflow: hidden; 
+  height: 700px;
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box;
+  background-color: #047433;
+  color: white;
+}
+
+.slider1 {
+    position: relative;
+    list-style-type: none;
+    text-align: start;
+    animation: slider1 linear infinite;
+}
+
+.slider1 li { line-height: 50px; width: 100vw; } 
+
+@keyframes slider1 {
+    0%   { transform: translateY(100vh) }
+    100% { transform: translateY(-100%) }
+}
+
+
+
 }

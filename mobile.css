@@ -1,6 +1,6 @@
 /*----mobile css less than 768 pixel---*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 728px) {
   #section1 {
     background-image: url("images/safety21.jpg") !important ;
     background-repeat: no-repeat !important; 
@@ -27,4 +27,31 @@
 .navbar-toggler:focus{
   color: #047433 !important ;
 }
+.navbar-light .navbar-toggler-icon {
+  background-image: url('images/logo/hamburger.svg') !important ;
 }
+
+
+/*-------marqueStart---*/
+
+@media screen and (max-width: 728px) {
+  #mobileId {
+  display: block;
+  
+  }
+ 
+ 
+
+
+  #desktopId  {
+    display: none;
+  }
+}
+
+/*-------marqueEnd---*/
+
+
+
+
+
+
