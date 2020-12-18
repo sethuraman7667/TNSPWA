@@ -154,7 +154,7 @@ color: #047433;
 
 .demopadding {
   margin:50px auto;
-  width:180px;
+  width:200px;
   text-align:center;
 }
 .icon {
@@ -227,7 +227,7 @@ color: #047433;
 /*------contactuspage-----*/
 .contactuscards {
   border-color: #047433 !important ;
-  color: #047433 ;
+  color: #047433 !important ;
   font-weight: 600;
 
 }
@@ -250,6 +250,18 @@ color: #047433;
   width: 75% !important ;
 
 }
+
+.form-control:focus {
+  color: #212529 !important ;
+  background-color: #fff;
+  border-color: #047433 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(4,116,51,.25) !important;
+}
+
+
+
+
 
 @media screen and (max-width: 600px) {
   .contactuscards {
@@ -594,3 +606,6 @@ body{
 
 
 }
+
+
+
