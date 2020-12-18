@@ -60,6 +60,7 @@ color: #047433 !important;
 
 .h1-responsive {
   color: #047433;
+
 }
 }
 
@@ -224,6 +225,16 @@ color: #047433;
   align-items: center;
 }
 
+[data-aos="example-anim3"] {
+  transform: rotate(360deg);
+  opacity: 0;
+  transition-property: transform, opacity;
+  &.aos-animate {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
 /*------contactuspage-----*/
 .contactuscards {
   border-color: #047433 !important ;
@@ -353,6 +364,15 @@ color: #047433;
     border-color: #047433 !important;
     color: #047433 !important ;
   }
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: white !important ;
+  background-color: #047433 !important;
+  border-color: #047433 !important;
+}
+
+
   /*------homeGallery-----*/
   @import url(https://fonts.googleapis.com/css?family=Raleway);
 
@@ -607,5 +627,13 @@ body{
 
 }
 
+/*--homrPageAnimation----*/
+.ml2 {
+  font-weight: 600;
+  font-size: 20px;
+}
 
-
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
