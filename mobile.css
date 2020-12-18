@@ -1,6 +1,6 @@
-/*----mobile css less than 768 pixel---*/
+/*----mobile css less than 600 pixel---*/
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 576px) {
   #section1 {
     background-image: url("images/safety21.jpg") !important ;
     background-repeat: no-repeat !important; 
@@ -8,15 +8,19 @@
     background-position: center center!important; 
   }
 
-  .mobileresponsive {
+  .tnspwa {
     font-weight: 600;
     font-size: 25px;
-    padding-top: 250px;
+    padding-top: 275px;
     color: white;
-    text-align: center;
+    width: 405px !important ;
+    margin-right: 100px !important ;
+    text-align: center !important ; 
   }
 
-
+.h1-responsive {
+  color: white;
+}
 
   a.nav-link{
   color: #047433 !important;
@@ -75,3 +79,47 @@ ul.marquee li {
 
 
 
+/*---------tabletsresponsive----------*/
+
+@media screen and (min-width: 576px) and (max-width: 768px)  {
+  #section1 {
+    background-image: url("images/safety21.jpg") !important ;
+    background-repeat: no-repeat !important; 
+    background-size: cover !important; 
+    background-position: center center!important; 
+  }
+
+  .tnspwa {
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 275px;
+    color: white;
+    width: 500px !important ;
+    margin-left: 100px !important ;
+    text-align: center !important ; 
+  }
+
+.h1-responsive {
+  color: white;
+}
+
+  a.nav-link{
+  color: #047433 !important;
+}
+.navbar-toggler{
+  border-color: #047433 !important ;
+}
+.navbar-toggler:focus{
+  color: #047433 !important ;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url('images/logo/hamburger.svg') !important ;
+}
+
+.tabletscards {
+  height: 12em;
+}
+
+
+
+}
