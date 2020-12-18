@@ -581,7 +581,7 @@ body{
     position: relative;
     list-style-type: none;
     text-align: start;
-    animation: slider1 linear infinite;
+    animation: slider1  100s linear infinite;
 }
 
 .slider1 li { line-height: 50px; width: 100vw; } 
