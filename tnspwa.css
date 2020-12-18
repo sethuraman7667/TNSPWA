@@ -242,10 +242,7 @@ color: #047433;
   font-weight: 600;
 
 }
-.contactuscards:hover {
-  background-color: #047433 !important;
-  color: white !important;
-}
+
 #contactus1  .conttext {
   color: #047433 ;
   text-decoration: none !important;
@@ -282,10 +279,7 @@ color: #047433;
   color: #047433 !important;
   font-weight: 600;
 }
-.contactuscards:hover {
-  background-color: #047433 !important;
-  color: white;
-}
+
 }
 
 #aboutmain .about1{
