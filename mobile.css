@@ -15,6 +15,7 @@
     width: 399px !important ;
     margin-right: 100px !important ;
     text-align: center !important ; 
+    overflow: hidden;
   }
 
 .h1-responsive {
