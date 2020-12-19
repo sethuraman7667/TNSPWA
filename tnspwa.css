@@ -16,11 +16,15 @@
 .navbar-light .navbar-nav .nav-link {
   color: #047433 !important;
 }
-.navbar-light .navbar-nav .nav-link:focus {
+
+/*-----
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show, .nav-link {
   border-bottom: 3px solid;
-  border-bottom-color: #047433;
+  border-bottom-color: #047433 !important;
   color: #047433 !important;
 }
+
+---*/
 
 /*-------
 @media only screen and (min-width: 992px) {
@@ -657,8 +661,16 @@ body{
 a.nav-link {
   color: #047433 !important;
 }
+
+
+
+
+.follow {
+  margin-left: -58px !important;
+}
 }
 
 ..nav-tabs {
   border-bottom: 1px solid #047433 !important;
 }
+
