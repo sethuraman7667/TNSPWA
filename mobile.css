@@ -9,11 +9,10 @@
   }
 
   .tnspwa {
-    font-weight: 600;
-    font-size: 25px;
+
     padding-top: 275px;
     color: white;
-    width: 405px !important ;
+    width: 399px !important ;
     margin-right: 100px !important ;
     text-align: center !important ; 
   }
@@ -34,14 +33,39 @@
 .navbar-light .navbar-toggler-icon {
   background-image: url('images/logo/hamburger.svg') !important ;
 }
+
+/*--homrPageAnimation----*/
+.ml2 {
+  font-weight: 600;
+  font-size: 20px;
+  width: 399px !important;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+#aboutmain {
+      display: none;
+  }
+#aboutmain1 {
+    display: block;
+  }
+
+
+
+
 }
 
 
 /*-------marqueStart---*/
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 576px) {
   #mobileId {
-  display: none;
+  display: inline-block;
   
   }
  
@@ -51,24 +75,33 @@
 
 
 /*-------marqueEnd---*/
-
-
  .dimension1 { 
-  margin:10px;
-  height: 50px;
+  overflow: hidden; 
+  height: 70px;
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box;
+  background-color: #047433;
+  color: white;
 }
 
-.marquee {
-    width: 100%;
-    overflow: hidden;
-    background: #047433;
-    color: white;
+
+.slider {
+  display: inline-flex;
+
+    position: relative;
+    list-style-type: none;
+    text-align: start;
+    animation: slider  500s linear infinite;
 }
-ul.marquee li {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 20px;
+
+.slider li { line-height: 50px; width: 100vw; font-weight: 600; } 
+
+@keyframes slider {
+    0%   { transform: translateX(100vh) }
+    100% { transform: translateX(-100%) }
 }
+
 }
 
 
@@ -118,6 +151,49 @@ ul.marquee li {
 
 .tabletscards {
   height: 12em;
+}
+
+.heightTablets {
+  height: 425px !important ;
+}
+
+
+#aboutmain {
+      display: none;
+  }
+#aboutmain1 {
+    display: block;
+  }
+
+
+  #mobileId {
+  display: inline-block;
+  
+  }
+ 
+  #desktopId  {
+    display: none;
+  }
+
+
+/*-------marqueEnd---*/
+
+
+ .dimension1 { 
+  margin:10px;
+  height: 50px;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    background: #047433;
+    color: white;
+}
+ul.marquee li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
 }
 
 
