@@ -13,7 +13,7 @@
     padding-top: 275px;
     color: white;
     width: 399px !important ;
-    margin-right: 75px !important ;
+    margin-left: 10px !important ;
     text-align: center !important ; 
     overflow: hidden;
   }
@@ -117,7 +117,7 @@
 
 /*---------tabletsresponsive----------*/
 
-@media screen and (min-width: 576px) and (max-width: 768px)  {
+@media screen and (min-width: 576px) and (max-width: 992px)  {
   #section1 {
     background-image: url("images/safety21.jpg") !important ;
     background-repeat: no-repeat !important; 
@@ -131,7 +131,7 @@
     padding-top: 275px;
     color: white;
     width: 500px !important ;
-    margin-left: 50px !important ;
+    margin-left: 25px !important ;
     text-align: center !important ; 
   }
 
